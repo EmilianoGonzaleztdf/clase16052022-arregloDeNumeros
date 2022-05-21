@@ -1,9 +1,16 @@
-import "./styles.css";
+let num: number[] = new Array(7);
+let indice: number = 0;
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>`;
+num[0] = 20;
+num[1] = 14;
+num[2] = 8;
+num[3] = 0;
+num[4] = 5;
+num[5] = 19;
+num[6] = 24;
+
+while (indice < 7) {
+  console.log("el numero en la posicion", indice, "es", num[indice]);
+  indice++;
+}
+console.log(num[0]);
