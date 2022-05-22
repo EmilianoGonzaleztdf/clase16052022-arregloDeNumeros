@@ -13,4 +13,3 @@ while (indice < 7) {
   console.log("el numero en la posicion", indice, "es", num[indice]);
   indice++;
 }
-console.log(num[0]);
